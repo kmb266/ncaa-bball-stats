@@ -1,0 +1,237 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url(fonts/Inconsolata-Regular.ttf);
+}
+
+body {
+  overflow-y: hidden;
+  line-height: 1em;
+  /* font-family: Inconsolata; */
+}
+
+#nav-logo {
+  width: 75px;
+  margin-top: -15px;
+  z-index: 100;
+  display: inline-block;
+  position: absolute;
+}
+#navbar-logo {
+  padding-right: 0px;
+}
+#main-navbar {
+  /* background-color: #d60027; */
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 0px;
+  font-size: 20px;
+}
+.navbar-main {
+  position: absolute;
+  left: 85px;
+}
+.navigation-btn:hover {
+
+}
+.navbar-item:hover {
+  cursor: pointer;
+}
+
+.filter-wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 200px;
+  background-color: #eee;
+  padding: 8px;
+  display: inline-block;
+}
+.clear-filters {
+  float:right;
+}
+
+.apply-filters {
+  width: 100%;
+  background-color: #eee;
+  text-align: center;
+  z-index: 2;
+}
+
+@media screen and (max-height: 770px) {
+  .apply-filters {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 200px;
+    background-color: #ccc;
+  }
+  .season-category {
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+  }
+}
+
+.apply-filters > .btn {
+  color: #d60027;
+}
+.filter-td {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.filter-label {
+  font-size: 12px;
+  font-weight: 400;
+}
+span.filter-label {
+  font-weight: 500;
+}
+.ot-label {
+  font-size: 12px;
+  font-weight: 500;
+}
+#overtime {
+  margin-top: 10px;
+}
+.filter-table {
+  width: 100%
+}
+.input-filter {
+  width: 100%;
+  font-size: 12px;
+}
+.locationCheckbox {
+  width : 50px;
+}
+.indent-first-checkbox {
+  margin-left: 10px
+}
+.indent-first-checkbox2 {
+  margin-left: 27px;
+}
+
+.toggle-btn {
+  width: 100%;
+}
+
+.content-wrapper {
+  padding: 0px 8px 8px 0px;
+  margin: 8px 0px 0px 8px;
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  right: 0px;
+  overflow-x: scroll;
+  font-family: Inconsolata;
+
+}
+
+#game-time {
+  width:100%;
+}
+
+/*#filter-nav-players {
+  z-index: -1;
+}*/
+
+.filter-select2s {
+  width: 100%;
+}
+[class^='select2'] {
+  border-radius: 0px !important;
+  font-size: 12px;
+  z-index: 0;
+}
+.select2-container .select2-selection--multiple {
+  min-height: 26px !important;
+}
+
+.upOrDown {
+  font-size: 8px;
+}
+
+#saved-filters-wrapper {
+  padding:12px 8px 8px 0px;
+
+}
+
+.save-filters-input {
+  width: 100%;
+  padding: 4px;
+}
+
+/* hide the search box in the up or down section */
+/* .select2-search--dropdown {
+  display: none !important;
+} */
+/* hide the scorll bars */
+:not(.filter-wrapper):not(.content-wrapper)::-webkit-scrollbar {
+    display: none;
+}
+
+
+.date-input {
+  height: 2em;
+}
+.input-group-addon {
+  padding: 3px 12px;
+}
+.select2-selection__clear {
+  color: #bbb;
+}
+
+.form-group {
+  margin-bottom: 0px !important;
+}
+
+
+/* get rid of bootstrap .table padding to make table more likely to fit on one page */
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 4px;
+}
+
+.col-0 {
+  /* margin-top: -1px; */
+  text-align: left;
+  width: 150px;
+  position: absolute !important;
+  overflow-x: hidden;
+}
+.table>tbody>tr>th:first-child{
+  margin-top: -1px;
+}
+
+.col-1 {
+  padding-left: 154px !important;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td {
+   background-color: white;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, th {
+   background-color: inherit;
+}
+.table, th {
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* style the teams tab */
+#teams-table > tbody > tr:nth-child(2n+1) > td  {
+  border-bottom-color: black !important;
+}
+#teams-table > tbody > tr:nth-child(2n) .col-0 {
+  border-top-color: black !important;
+}
+#teams-table > tbody > tr:nth-child(2) .col-0 {
+  border-top-color: inherit !important;
+}
+
+div .minimize {
+  color: red;
+}
+
+td>p {
+  margin: 0px !important;
+}
+#version:hover {
+  cursor: pointer;
+}

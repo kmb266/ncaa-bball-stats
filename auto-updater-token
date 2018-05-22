@@ -1,0 +1,8 @@
+GITHUB_TOKEN=8c56415675f70fecfbef1f8dda8ce1daa0efacb6 npm run publish
+
+# You need to create a file named app/dev-app-update.yml
+appId: MerrillPoint.NCAA.Mens.Basketball.Stats
+provider: github
+token: 8c56415675f70fecfbef1f8dda8ce1daa0efacb6
+owner: kmb266
+repo: cs5150-basketball-project

@@ -1,0 +1,81 @@
+<nav class="navbar navbar-inverse" id="main-navbar">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" id="navbar-logo" (click)="printMsg($event)">
+        <img alt="Brand" src="assets/images/cornell-logo.png" id="nav-logo">
+      </a>
+    </div>
+    <ul class="nav navbar-nav navbar-main">
+      <!-- TODO: make back and forward buttons work -->
+      <!-- <li class="navigation-btn navbar-item" id="back-btn">
+          <a (click)="printMsg($event)"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+      </li>
+      <li class="navigation-btn navbar-item" id="forward-btn">
+          <a (click)="printMsg($event)"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+      </li> -->
+      <p class="navbar-text" style="font-size:12px; width:85px;padding-top:5px;text-align:center;padding-left:0px;">
+        Version: <span id="version" data-toggle="tooltip" data-placement="bottom" title="Click to check for an update">{{app_version}}</span>
+      </p>
+      <li class="navbar-item" [ngClass]="{'active':currentPage == 'players'}">
+        <a id="players" (click)="pageClicked($event)">Players</a>
+      </li>
+      <li class="navbar-item" [ngClass]="{'active':currentPage == 'teams'}">
+        <a id="teams" (click)="pageClicked($event)">Teams</a>
+      </li>
+      <li class="navbar-item" [ngClass]="{'active':currentPage == 'games'}">
+        <a id="games" (click)="pageClicked($event)">Games</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <!-- <li>
+        <div class="nav-tooltip" data-toggle="tooltip" data-placement="bottom" title="Clear Selected Filter" style="padding-top:8px;">
+          <button [disabled]="savedFilters.value < 0" style="height:28px;width:22px;" class="btn btn-default btn-xs" (click)="clearSavedFilter()">x</button>
+        </div>
+      </li> -->
+      <li id="save-filter-tooltip" class="navigation-btn navbar-item" data-toggle="tooltip" data-placement="bottom" title="Edit Saved Filter">
+        <a (click)="showEditSavedFiltersModal(editSavedFiltersModal)"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+      </li>
+      <li>
+        <div id="saved-filters-wrapper" data-toggle="tooltip" data-placement="left" title="Select a saved filter">
+          <select id="saved-filters" style="max-width:200px" #savedFilters></select>
+        </div>
+      </li>
+      <li id="save-filter-tooltip" class="navigation-btn navbar-item" data-toggle="tooltip" data-placement="bottom" title="Save Current Filter">
+        <a (click)="showSaveModal()"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span></a>
+      </li>
+      <li id="print-tooltip" class="navbar-item" data-toggle="tooltip" data-placement="bottom" title="Print Stats">
+        <a (click)="printPage($event)"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="edit-saved-filters-modal" class="modal fade" role="dialog" #editSavedFiltersModal>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Edit Saved Filters</h4>
+      </div>
+      <div class="modal-body" style="overflow-y: scroll;max-height:400px;">
+        <div class="input-group" *ngFor="let filter of savedFiltersFromFile; let in = index" style="padding:4px;">
+          <input type="text" class="form-control input-filter-names" name="filter-names-{{in}}" id="filter-names-{{in}}"
+                 value="{{filter.text}}" [attr.data-include]="true" [attr.data-filter]="jsonStringify(filter.data)">
+          <span class="input-group-btn">
+            <button class="btn btn-default" style="color:red" type="button" id="btn-filter-{{in}}" (click)="deleteFilter($event, in)">Delete</button>
+            <button class="btn btn-default" style="color:green;display:none;" type="button" id="btn-filter-undo-{{in}}" (click)="deleteFilter($event, in)">Undo</button>
+          </span>
+        </div><!-- /input-group -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Discard Changes</button>
+        <button type="button" class="btn btn-success" (click)="saveFilterChanges(editSavedFiltersModal)">
+          Save changes
+        </button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

@@ -1,0 +1,7 @@
+node_modules
+out
+venv
+basketball
+dist
+build
+basketball_json.db

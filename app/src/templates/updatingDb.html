@@ -1,0 +1,48 @@
+<head>
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/updatingDb.css">
+  <script type="text/javascript">
+    const {ipcRenderer} = require('electron');
+
+    function countDownToClose() {
+      var timeleft = 10;
+      var downloadTimer = setInterval(function(){
+        document.getElementById('secs-to-close').innerHTML = timeleft;
+        if(timeleft <= 0) {
+          clearInterval(downloadTimer);
+          self.close();
+        }
+        timeleft = timeleft - 1;
+      },1000);
+    }
+
+    ipcRenderer.on('update_status' , function(event , data){
+      console.log(data.msg);
+      document.getElementById('updating-wrapper').style.display = 'none';
+      document.getElementById('updated-wrapper').style.display = 'block';
+      countDownToClose()
+    });
+  </script>
+</head>
+<body>
+  <div id="updating-wrapper">
+    <h3>Fetching Data</h3>
+    <div class="loader">Loading...</div>
+    <div>
+      <button class="btn btn-default" onClick="self.close()">
+        Close Window
+      </button>
+    </div>
+    <span style="color:#ccc">Closing the window will not affect the update</span>
+  </div>
+  <div id="updated-wrapper">
+    <h3>Update Successful</h3>
+    <span class="glyphicon glyphicon-ok-circle" id="update-btn-msg" aria-hidden="true"></span>
+    <div>
+      <button class="btn btn-default" onClick="self.close()">
+        Close Window
+      </button>
+    </div>
+    <span style="color:#ccc">Window will close in <span id="secs-to-close">10</span> seconds</span>
+  </div>
+</body>

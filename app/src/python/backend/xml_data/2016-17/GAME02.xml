@@ -1,0 +1,700 @@
+<bbgame source="STAT CREW Basketball" version="1.1.2" generated="4/19/2018">
+  <venue gameid="GAME02"
+           visid="COR" visname="Cornell"
+           homeid="SIE" homename="Siena"
+           date="11/13/2016" location="Times Union Center - Albany, N.Y."
+           time="2:00 p.m." attend="6196" schednote=""
+           leaguegame="N" neutralgame="N" postseason="N">
+    <officials text="Robert Riley, Jeffrey Anderson, Mike Kitts"></officials>
+    <notes>
+      <note text="ID-1517061"></note>
+    </notes>
+    <rules prds="2" minutes="20" minutesot="5" fouls="5" qh="H"></rules>
+  </venue>
+  <status complete="Y" period="2" clock="00:00" running="F"></status>
+  <team vh="V" id="COR" name="Cornell" record="0-2">
+    <linescore line="34,44" score="78">
+      <lineprd prd="1" score="34"></lineprd>
+      <lineprd prd="2" score="44"></lineprd>
+    </linescore>
+    <totals>
+      <stats fgm="29" fga="64" fgm3="7" fga3="19" ftm="13" fta="22" tp="78" blk="1" stl="3" ast="13" min="200"
+             oreb="14" dreb="27" treb="41" pf="26" tf="0" to="14" deadball="4,1"></stats>
+      <special vh="V" pts_to="5" pts_ch2="11" pts_paint="42" pts_fastb="7" pts_bench="17" ties="1" leads="5"
+               poss_count="88" poss_time="1072" score_count="27" score_time="419" large_lead="6" large_lead_t="1st-11:03"></special>
+    </totals>
+    <player uni="00" code="00" name="Onuorah, David" checkname="ONUORAH,DAVID" gp="0"></player>
+    <player uni="01" code="01" name="Smith, Darryl" checkname="SMITH,DARRYL" gp="1" oncourt="Y">
+      <stats fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1"
+             oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></stats>
+    </player>
+    <player uni="03" code="03" name="Wright, Donovan" checkname="WRIGHT,DONOVAN" gp="1" gs="1" pos="f">
+      <stats fgm="2" fga="6" fgm3="0" fga3="1" ftm="3" fta="5" tp="7" blk="0" stl="0" ast="0" min="16"
+             oreb="3" dreb="0" treb="3" pf="5" tf="0" to="1" dq="1"></stats>
+    </player>
+    <player uni="04" code="04" name="Whiteside, Troy" checkname="WHITESIDE,TROY" gp="1" oncourt="Y">
+      <stats fgm="1" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="1" stl="0" ast="2" min="14"
+             oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></stats>
+    </player>
+    <player uni="05" code="05" name="Hatter, Robert" checkname="HATTER,ROBERT" gp="1" gs="1" pos="g">
+      <stats fgm="5" fga="9" fgm3="1" fga3="2" ftm="1" fta="2" tp="12" blk="0" stl="1" ast="4" min="36"
+             oreb="0" dreb="10" treb="10" pf="5" tf="0" to="3" dq="1"></stats>
+    </player>
+    <player uni="10" code="10" name="Morgan, Matt" checkname="MORGAN,MATT" gp="1" gs="1" pos="g">
+      <stats fgm="6" fga="14" fgm3="3" fga3="8" ftm="1" fta="2" tp="16" blk="0" stl="2" ast="1" min="35"
+             oreb="0" dreb="8" treb="8" pf="0" tf="0" to="1" dq="0"></stats>
+    </player>
+    <player uni="11" code="11" name="Fleming, Desmond" checkname="FLEMING,DESMOND" gp="1" oncourt="Y">
+      <stats fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5"
+             oreb="0" dreb="0" treb="0" pf="2" tf="0" to="0" dq="0"></stats>
+    </player>
+    <player uni="12" code="12" name="Abdur-Ra'oof, Jordan" checkname="ABDUR-RA'OOF,JORDAN" gp="0"></player>
+    <player uni="13" code="13" name="Gettings, Stone" checkname="GETTINGS,STONE" gp="1" gs="1" pos="f">
+      <stats fgm="6" fga="15" fgm3="1" fga3="4" ftm="3" fta="4" tp="16" blk="0" stl="0" ast="4" min="28"
+             oreb="2" dreb="1" treb="3" pf="5" tf="0" to="3" dq="1"></stats>
+    </player>
+    <player uni="15" code="15" name="Bunce, Braxston" checkname="BUNCE,BRAXSTON" gp="0"></player>
+    <player uni="20" code="20" name="Bathurst, Wil" checkname="BATHURST,WIL" gp="1">
+      <stats fgm="1" fga="3" fgm3="0" fga3="0" ftm="3" fta="4" tp="5" blk="0" stl="0" ast="1" min="12"
+             oreb="1" dreb="2" treb="3" pf="4" tf="0" to="1" dq="0"></stats>
+    </player>
+    <player uni="21" code="21" name="Brown, Kyle" checkname="BROWN,KYLE" gp="0"></player>
+    <player uni="22" code="22" name="Warren, Josh" checkname="WARREN,JOSH" gp="1">
+      <stats fgm="5" fga="9" fgm3="0" fga3="0" ftm="0" fta="3" tp="10" blk="0" stl="0" ast="1" min="27"
+             oreb="4" dreb="2" treb="6" pf="2" tf="0" to="1" dq="0"></stats>
+    </player>
+    <player uni="23" code="23" name="Davis, Joel" checkname="DAVIS,JOEL" gp="0"></player>
+    <player uni="24" code="24" name="Smith, Pat" checkname="SMITH,PAT" gp="0"></player>
+    <player uni="25" code="25" name="Fallas, JoJo" checkname="FALLAS,JOJO" gp="1" gs="1" pos="g">
+      <stats fgm="3" fga="5" fgm3="2" fga3="3" ftm="2" fta="2" tp="10" blk="0" stl="0" ast="0" min="24"
+             oreb="0" dreb="2" treb="2" pf="3" tf="0" to="2" dq="0"></stats>
+    </player>
+    <player uni="30" code="30" name="Bayless, Joseph" checkname="BAYLESS,JOSEPH" gp="1" oncourt="Y">
+      <stats fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1"
+             oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></stats>
+    </player>
+    <player uni="32" code="32" name="Gordon, Jack" checkname="GORDON,JACK" gp="1" oncourt="Y">
+      <stats fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1"
+             oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></stats>
+    </player>
+    <player uni="TM" code="TM" name="TEAM" checkname="TEAM" gp="1">
+      <stats oreb="4" dreb="1" treb="5" pf="0" tf="0" to="1" dq="0"></stats>
+    </player>
+  </team>
+  <team vh="H" id="SIE" name="Siena" record="1-0">
+    <linescore line="48,41" score="89">
+      <lineprd prd="1" score="48"></lineprd>
+      <lineprd prd="2" score="41"></lineprd>
+    </linescore>
+    <totals>
+      <stats fgm="28" fga="67" fgm3="11" fga3="29" ftm="22" fta="30" tp="89" blk="7" stl="7" ast="16" min="200"
+             oreb="13" dreb="25" treb="38" pf="21" tf="0" to="8" deadball="6,1"></stats>
+      <special vh="H" pts_to="17" pts_ch2="10" pts_paint="28" pts_fastb="7" pts_bench="19" ties="2" leads="6"
+               poss_count="89" poss_time="1298" score_count="30" score_time="506" large_lead="14" large_lead_t="1st-00:55"></special>
+    </totals>
+    <player uni="00" code="00" name="Ogunyemi, Javion" checkname="OGUNYEMI,JAVION" gp="1" gs="1" pos="f">
+      <stats fgm="4" fga="8" fgm3="0" fga3="1" ftm="5" fta="6" tp="13" blk="2" stl="1" ast="3" min="19"
+             oreb="1" dreb="4" treb="5" pf="5" tf="0" to="1" dq="1"></stats>
+    </player>
+    <player uni="01" code="01" name="Wright, Marquis" checkname="WRIGHT,MARQUIS" gp="1" gs="1" pos="g" oncourt="Y">
+      <stats fgm="9" fga="18" fgm3="4" fga3="8" ftm="9" fta="11" tp="31" blk="0" stl="1" ast="5" min="38"
+             oreb="2" dreb="3" treb="5" pf="1" tf="0" to="0" dq="0"></stats>
+    </player>
+    <player uni="02" code="02" name="Brandwijk, Willem" checkname="BRANDWIJK,WILLEM" gp="1">
+      <stats fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1"
+             oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></stats>
+    </player>
+    <player uni="11" code="11" name="Huerter, Jr., Thomas" checkname="HUERTER,JR, THOMAS" gp="0"></player>
+    <player uni="12" code="12" name="Dufort, Andrew" checkname="DUFORT,ANDREW" gp="0"></player>
+    <player uni="13" code="13" name="Richard, Khalil" checkname="RICHARD,KHALIL" gp="1" gs="1" pos="g">
+      <stats fgm="0" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="3" min="18"
+             oreb="0" dreb="1" treb="1" pf="2" tf="0" to="1" dq="0"></stats>
+    </player>
+    <player uni="14" code="14" name="Smithen, Kadeem" checkname="SMITHEN,KADEEM" gp="1" oncourt="Y">
+      <stats fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="1" stl="0" ast="1" min="19"
+             oreb="3" dreb="1" treb="4" pf="3" tf="0" to="0" dq="0"></stats>
+    </player>
+    <player uni="15" code="15" name="Clareth, Nico" checkname="CLARETH,NICO" gp="1" oncourt="Y">
+      <stats fgm="5" fga="17" fgm3="3" fga3="10" ftm="1" fta="4" tp="14" blk="1" stl="2" ast="2" min="31"
+             oreb="1" dreb="2" treb="3" pf="4" tf="0" to="2" dq="0"></stats>
+    </player>
+    <player uni="20" code="20" name="Merrill, Jimmy" checkname="MERRILL,JIMMY" gp="0"></player>
+    <player uni="21" code="21" name="Shivers, Ahsante" checkname="SHIVERS,AHSANTE" gp="1" gs="1" pos="g">
+      <stats fgm="0" fga="2" fgm3="0" fga3="1" ftm="3" fta="4" tp="3" blk="0" stl="0" ast="1" min="14"
+             oreb="0" dreb="2" treb="2" pf="1" tf="0" to="1" dq="0"></stats>
+    </player>
+    <player uni="24" code="24" name="Long, Lavon" checkname="LONG,LAVON" gp="0"></player>
+    <player uni="31" code="31" name="Bisping, Brett" checkname="BISPING,BRETT" gp="1" gs="1" pos="f" oncourt="Y">
+      <stats fgm="8" fga="11" fgm3="3" fga3="3" ftm="4" fta="5" tp="23" blk="2" stl="3" ast="1" min="37"
+             oreb="5" dreb="10" treb="15" pf="3" tf="0" to="2" dq="0"></stats>
+    </player>
+    <player uni="32" code="32" name="Fisher, Evan" checkname="FISHER,EVAN" gp="1" oncourt="Y">
+      <stats fgm="2" fga="6" fgm3="1" fga3="4" ftm="0" fta="0" tp="5" blk="1" stl="0" ast="0" min="23"
+             oreb="0" dreb="2" treb="2" pf="2" tf="0" to="1" dq="0"></stats>
+    </player>
+    <player uni="35" code="35" name="Friday, Sammy" checkname="FRIDAY,SAMMY" gp="0"></player>
+    <player uni="TM" code="TM" name="TEAM" checkname="TEAM" gp="1">
+      <stats oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"></stats>
+    </player>
+  </team>
+  <plays format="tokens">
+    <period number="1" time="20:00">
+      <special vh="V" pts_to="1" pts_ch2="4" pts_paint="22" pts_fastb="2" pts_bench="6" ties="1" leads="5"
+               poss_count="41" poss_time="617" score_count="14" score_time="253" large_lead="6" large_lead_t="1st-11:03"></special>
+      <special vh="H" pts_to="12" pts_ch2="7" pts_paint="16" pts_fastb="7" pts_bench="13" ties="2" leads="6"
+               poss_count="41" poss_time="582" score_count="17" score_time="250" large_lead="14" large_lead_t="1st-00:55"></special>
+      <summary vh="V" fgm="14" fga="32" fgm3="3" fga3="10" ftm="3" fta="6" blk="1" stl="0" ast="6"
+               oreb="7" dreb="13" treb="20" pf="9" tf="0" to="8"></summary>
+      <summary vh="H" fgm="17" fga="41" fgm3="7" fga3="19" ftm="7" fta="8" blk="4" stl="4" ast="10"
+               oreb="11" dreb="12" treb="23" pf="8" tf="0" to="4"></summary>
+      <play vh="V" time="19:41" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="19:41" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="19:31" uni="31" team="SIE" checkname="BISPING,BRETT" action="TURNOVER"></play>
+      <play vh="V" time="19:23" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="19:23" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="19:17" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="TURNOVER"></play>
+      <play vh="H" time="19:09" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="FOUL"></play>
+      <play vh="V" time="19:09" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="MISS" type="FT"></play>
+      <play vh="V" time="19:09" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="19:09" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="GOOD" type="FT" vscore="1" hscore="0"></play>
+      <play vh="H" time="18:58" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="LAYUP" paint="Y" vscore="1" hscore="2"></play>
+      <play vh="H" time="18:58" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="ASSIST"></play>
+      <play vh="H" time="18:40" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="FOUL"></play>
+      <play vh="V" time="18:40" uni="25" team="COR" checkname="FALLAS,JOJO" action="GOOD" type="FT" vscore="2" hscore="2"></play>
+      <play vh="V" time="18:40" uni="25" team="COR" checkname="FALLAS,JOJO" action="GOOD" type="FT" vscore="3" hscore="2"></play>
+      <play vh="V" time="18:26" uni="13" team="COR" checkname="GETTINGS,STONE" action="FOUL"></play>
+      <play vh="H" time="18:18" uni="31" team="SIE" checkname="BISPING,BRETT" action="FOUL"></play>
+      <play vh="H" time="18:18" uni="31" team="SIE" checkname="BISPING,BRETT" action="TURNOVER"></play>
+      <play vh="V" time="18:13" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="3PTR"></play>
+      <play vh="V" time="18:13" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="18:08" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="18:08" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="18:02" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="3" hscore="4"></play>
+      <play vh="V" time="17:37" uni="05" team="COR" checkname="HATTER,ROBERT" action="GOOD" type="LAYUP" paint="Y" vscore="5" hscore="4"></play>
+      <play vh="H" time="17:30" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="MISS" type="3PTR"></play>
+      <play vh="H" time="17:30" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="17:22" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="LAYUP" paint="Y" vscore="5" hscore="6"></play>
+      <play vh="V" time="17:05" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="LAYUP" paint="Y" vscore="7" hscore="6"></play>
+      <play vh="H" time="16:51" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="16:51" uni="10" team="COR" checkname="MORGAN,MATT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="16:39" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="FOUL"></play>
+      <play vh="V" time="16:39" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="IN"></play>
+      <play vh="V" time="16:39" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="OUT"></play>
+      <play vh="V" time="16:30" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="16:30" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="BLOCK"></play>
+      <play vh="V" time="16:29" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="16:29" uni="15" team="SIE" checkname="CLARETH,NICO" action="SUB" type="IN"></play>
+      <play vh="H" time="16:29" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="OUT"></play>
+      <play vh="V" time="16:24" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="GOOD" type="LAYUP" paint="Y" vscore="9" hscore="6"></play>
+      <play vh="H" time="16:08" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="LAYUP" paint="Y" vscore="9" hscore="8"></play>
+      <play vh="H" time="16:08" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="ASSIST"></play>
+      <play vh="V" time="15:50" uni="25" team="COR" checkname="FALLAS,JOJO" action="TURNOVER"></play>
+      <play vh="H" time="15:48" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="STEAL"></play>
+      <play vh="H" time="15:45" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="3PTR" fastb="Y" vscore="9" hscore="11"></play>
+      <play vh="H" time="15:45" uni="15" team="SIE" checkname="CLARETH,NICO" action="ASSIST"></play>
+      <play vh="V" time="15:28" uni="25" team="COR" checkname="FALLAS,JOJO" action="GOOD" type="3PTR" vscore="12" hscore="11"></play>
+      <play vh="V" time="15:28" uni="22" team="COR" checkname="WARREN,JOSH" action="ASSIST"></play>
+      <play vh="H" time="15:10" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="MISS" type="3PTR"></play>
+      <play vh="V" time="15:10" uni="10" team="COR" checkname="MORGAN,MATT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="14:54" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="MISS" type="3PTR"></play>
+      <play vh="H" time="14:54" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="14:45" uni="22" team="COR" checkname="WARREN,JOSH" action="FOUL"></play>
+      <play vh="H" time="14:45" uni="TM" team="SIE" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="H" time="14:45" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="FT" vscore="12" hscore="12"></play>
+      <play vh="H" time="14:45" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="FT" vscore="12" hscore="13"></play>
+      <play vh="V" time="14:45" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="IN"></play>
+      <play vh="V" time="14:45" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="SUB" type="OUT"></play>
+      <play vh="H" time="14:45" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="IN"></play>
+      <play vh="H" time="14:45" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="SUB" type="OUT"></play>
+      <play vh="V" time="14:39" uni="22" team="COR" checkname="WARREN,JOSH" action="TURNOVER"></play>
+      <play vh="H" time="14:28" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="14:28" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="14:26" uni="20" team="COR" checkname="BATHURST,WIL" action="FOUL"></play>
+      <play vh="H" time="14:23" uni="31" team="SIE" checkname="BISPING,BRETT" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="14:23" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="14:07" uni="20" team="COR" checkname="BATHURST,WIL" action="TURNOVER"></play>
+      <play vh="H" time="14:04" uni="15" team="SIE" checkname="CLARETH,NICO" action="STEAL"></play>
+      <play vh="H" time="14:03" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="14:03" uni="TM" team="SIE" checkname="TEAM" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="13:59" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="MISS" type="3PTR"></play>
+      <play vh="V" time="13:59" uni="25" team="COR" checkname="FALLAS,JOJO" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="13:41" uni="10" team="COR" checkname="MORGAN,MATT" action="GOOD" type="JUMPER" paint="Y" vscore="14" hscore="13"></play>
+      <play vh="H" time="13:24" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="3PTR"></play>
+      <play vh="H" time="13:24" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="13:19" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="3PTR"></play>
+      <play vh="H" time="13:19" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="13:14" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="13:14" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="13:09" uni="04" team="COR" checkname="WHITESIDE,TROY" action="SUB" type="IN"></play>
+      <play vh="V" time="13:09" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="OUT"></play>
+      <play vh="H" time="13:09" uni="32" team="SIE" checkname="FISHER,EVAN" action="SUB" type="IN"></play>
+      <play vh="H" time="13:09" uni="31" team="SIE" checkname="BISPING,BRETT" action="SUB" type="OUT"></play>
+      <play vh="H" time="13:07" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="13:07" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="13:02" uni="32" team="SIE" checkname="FISHER,EVAN" action="MISS" type="3PTR"></play>
+      <play vh="V" time="13:02" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="12:51" uni="22" team="COR" checkname="WARREN,JOSH" action="GOOD" type="LAYUP" paint="Y" vscore="16" hscore="13"></play>
+      <play vh="V" time="12:51" uni="04" team="COR" checkname="WHITESIDE,TROY" action="ASSIST"></play>
+      <play vh="H" time="12:41" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="12:41" uni="22" team="COR" checkname="WARREN,JOSH" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="12:40" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="FOUL"></play>
+      <play vh="V" time="12:40" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="IN"></play>
+      <play vh="V" time="12:40" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="OUT"></play>
+      <play vh="H" time="12:40" uni="31" team="SIE" checkname="BISPING,BRETT" action="SUB" type="IN"></play>
+      <play vh="H" time="12:40" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="SUB" type="OUT"></play>
+      <play vh="V" time="12:22" uni="20" team="COR" checkname="BATHURST,WIL" action="GOOD" type="LAYUP" paint="Y" vscore="18" hscore="13"></play>
+      <play vh="H" time="12:05" uni="15" team="SIE" checkname="CLARETH,NICO" action="GOOD" type="JUMPER" vscore="18" hscore="15"></play>
+      <play vh="V" time="11:47" uni="13" team="COR" checkname="GETTINGS,STONE" action="TURNOVER"></play>
+      <play vh="H" time="11:47" uni="TM" team="SIE" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="11:47" uni="11" team="COR" checkname="FLEMING,DESMOND" action="SUB" type="IN"></play>
+      <play vh="V" time="11:47" uni="10" team="COR" checkname="MORGAN,MATT" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:47" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="SUB" type="IN"></play>
+      <play vh="H" time="11:47" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:27" uni="31" team="SIE" checkname="BISPING,BRETT" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="11:27" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="11:03" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="3PTR" vscore="21" hscore="15"></play>
+      <play vh="V" time="11:03" uni="05" team="COR" checkname="HATTER,ROBERT" action="ASSIST"></play>
+      <play vh="H" time="10:35" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="10:35" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="10:29" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="LAYUP" paint="Y" vscore="21" hscore="17"></play>
+      <play vh="V" time="10:29" uni="20" team="COR" checkname="BATHURST,WIL" action="FOUL"></play>
+      <play vh="H" time="10:29" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="FT" vscore="21" hscore="18"></play>
+      <play vh="V" time="10:29" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="SUB" type="IN"></play>
+      <play vh="V" time="10:29" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="OUT"></play>
+      <play vh="H" time="10:26" uni="15" team="SIE" checkname="CLARETH,NICO" action="FOUL"></play>
+      <play vh="V" time="10:16" uni="05" team="COR" checkname="HATTER,ROBERT" action="GOOD" type="3PTR" vscore="24" hscore="18"></play>
+      <play vh="V" time="10:16" uni="04" team="COR" checkname="WHITESIDE,TROY" action="ASSIST"></play>
+      <play vh="H" time="10:01" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="3PTR" vscore="24" hscore="21"></play>
+      <play vh="H" time="10:01" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="ASSIST"></play>
+      <play vh="V" time="09:41" uni="04" team="COR" checkname="WHITESIDE,TROY" action="GOOD" type="LAYUP" paint="Y" vscore="26" hscore="21"></play>
+      <play vh="V" time="09:41" uni="13" team="COR" checkname="GETTINGS,STONE" action="ASSIST"></play>
+      <play vh="H" time="09:30" uni="15" team="SIE" checkname="CLARETH,NICO" action="GOOD" type="LAYUP" paint="Y" vscore="26" hscore="23"></play>
+      <play vh="V" time="09:11" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="3PTR"></play>
+      <play vh="H" time="09:11" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="09:01" uni="15" team="SIE" checkname="CLARETH,NICO" action="GOOD" type="3PTR" vscore="26" hscore="26"></play>
+      <play vh="H" time="09:01" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="ASSIST"></play>
+      <play vh="V" time="08:41" uni="13" team="COR" checkname="GETTINGS,STONE" action="TURNOVER"></play>
+      <play vh="H" time="08:39" uni="31" team="SIE" checkname="BISPING,BRETT" action="STEAL"></play>
+      <play vh="H" time="08:35" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="08:35" uni="04" team="COR" checkname="WHITESIDE,TROY" action="BLOCK"></play>
+      <play vh="H" time="08:32" uni="15" team="SIE" checkname="CLARETH,NICO" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="08:27" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="08:27" uni="TM" team="SIE" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="08:27" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="FOUL"></play>
+      <play vh="V" time="08:27" uni="10" team="COR" checkname="MORGAN,MATT" action="SUB" type="IN"></play>
+      <play vh="V" time="08:27" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="IN"></play>
+      <play vh="V" time="08:27" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="IN"></play>
+      <play vh="V" time="08:27" uni="05" team="COR" checkname="HATTER,ROBERT" action="SUB" type="OUT"></play>
+      <play vh="V" time="08:27" uni="11" team="COR" checkname="FLEMING,DESMOND" action="SUB" type="OUT"></play>
+      <play vh="V" time="08:27" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="OUT"></play>
+      <play vh="H" time="08:27" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="IN"></play>
+      <play vh="H" time="08:27" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="SUB" type="OUT"></play>
+      <play vh="H" time="08:21" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="3PTR"></play>
+      <play vh="H" time="08:21" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="08:00" uni="32" team="SIE" checkname="FISHER,EVAN" action="TURNOVER"></play>
+      <play vh="V" time="07:44" uni="TM" team="COR" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="07:29" uni="TM" team="COR" checkname="TEAM" action="TURNOVER"></play>
+      <play vh="H" time="07:14" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="3PTR" vscore="26" hscore="29"></play>
+      <play vh="H" time="07:14" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="ASSIST"></play>
+      <play vh="V" time="07:06" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="FOUL"></play>
+      <play vh="V" time="07:06" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="TURNOVER"></play>
+      <play vh="V" time="07:06" uni="05" team="COR" checkname="HATTER,ROBERT" action="SUB" type="IN"></play>
+      <play vh="V" time="07:06" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="SUB" type="OUT"></play>
+      <play vh="H" time="06:53" uni="15" team="SIE" checkname="CLARETH,NICO" action="GOOD" type="3PTR" vscore="26" hscore="32"></play>
+      <play vh="H" time="06:53" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="ASSIST"></play>
+      <play vh="V" time="06:36" uni="22" team="COR" checkname="WARREN,JOSH" action="MISS" type="DUNK"></play>
+      <play vh="H" time="06:36" uni="15" team="SIE" checkname="CLARETH,NICO" action="BLOCK"></play>
+      <play vh="H" time="06:34" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="06:30" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="3PTR"></play>
+      <play vh="V" time="06:30" uni="25" team="COR" checkname="FALLAS,JOJO" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="06:23" uni="25" team="COR" checkname="FALLAS,JOJO" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="28" hscore="32"></play>
+      <play vh="H" time="05:52" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="3PTR"></play>
+      <play vh="V" time="05:52" uni="10" team="COR" checkname="MORGAN,MATT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="05:45" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="3PTR"></play>
+      <play vh="V" time="05:45" uni="22" team="COR" checkname="WARREN,JOSH" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="05:40" uni="31" team="SIE" checkname="BISPING,BRETT" action="FOUL"></play>
+      <play vh="V" time="05:40" uni="22" team="COR" checkname="WARREN,JOSH" action="MISS" type="FT"></play>
+      <play vh="H" time="05:40" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="05:40" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="IN"></play>
+      <play vh="V" time="05:40" uni="04" team="COR" checkname="WHITESIDE,TROY" action="SUB" type="OUT"></play>
+      <play vh="H" time="05:40" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="SUB" type="IN"></play>
+      <play vh="H" time="05:40" uni="31" team="SIE" checkname="BISPING,BRETT" action="SUB" type="OUT"></play>
+      <play vh="H" time="05:21" uni="32" team="SIE" checkname="FISHER,EVAN" action="MISS" type="3PTR"></play>
+      <play vh="H" time="05:21" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="05:16" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="JUMPER" vscore="28" hscore="34"></play>
+      <play vh="V" time="05:06" uni="05" team="COR" checkname="HATTER,ROBERT" action="GOOD" type="LAYUP" paint="Y" vscore="30" hscore="34"></play>
+      <play vh="H" time="04:56" uni="15" team="SIE" checkname="CLARETH,NICO" action="GOOD" type="3PTR" vscore="30" hscore="37"></play>
+      <play vh="H" time="04:56" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="ASSIST"></play>
+      <play vh="V" time="04:35" uni="22" team="COR" checkname="WARREN,JOSH" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="04:35" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="BLOCK"></play>
+      <play vh="H" time="04:34" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="04:30" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="3PTR"></play>
+      <play vh="V" time="04:30" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="04:14" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="LAYUP" paint="Y" vscore="32" hscore="37"></play>
+      <play vh="V" time="03:57" uni="22" team="COR" checkname="WARREN,JOSH" action="FOUL"></play>
+      <play vh="H" time="03:57" uni="TM" team="SIE" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="H" time="03:57" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="FT" vscore="32" hscore="38"></play>
+      <play vh="H" time="03:57" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="FT" vscore="32" hscore="39"></play>
+      <play vh="H" time="03:57" uni="31" team="SIE" checkname="BISPING,BRETT" action="SUB" type="IN"></play>
+      <play vh="H" time="03:57" uni="32" team="SIE" checkname="FISHER,EVAN" action="SUB" type="OUT"></play>
+      <play vh="V" time="03:34" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="03:34" uni="13" team="COR" checkname="GETTINGS,STONE" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="03:29" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="03:29" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="BLOCK"></play>
+      <play vh="V" time="03:29" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="03:28" uni="10" team="COR" checkname="MORGAN,MATT" action="GOOD" type="LAYUP" paint="Y" vscore="34" hscore="39"></play>
+      <play vh="V" time="03:28" uni="13" team="COR" checkname="GETTINGS,STONE" action="ASSIST"></play>
+      <play vh="V" time="03:11" uni="25" team="COR" checkname="FALLAS,JOJO" action="FOUL"></play>
+      <play vh="H" time="03:11" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="FT" vscore="34" hscore="40"></play>
+      <play vh="H" time="03:11" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="MISS" type="FT"></play>
+      <play vh="V" time="03:11" uni="22" team="COR" checkname="WARREN,JOSH" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="03:04" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="3PTR"></play>
+      <play vh="V" time="03:04" uni="22" team="COR" checkname="WARREN,JOSH" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="03:01" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="FOUL"></play>
+      <play vh="V" time="03:01" uni="22" team="COR" checkname="WARREN,JOSH" action="MISS" type="FT"></play>
+      <play vh="H" time="03:01" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="03:01" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="IN"></play>
+      <play vh="H" time="03:01" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="OUT"></play>
+      <play vh="H" time="02:39" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="JUMPER" paint="Y" vscore="34" hscore="42"></play>
+      <play vh="V" time="02:25" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="02:25" uni="13" team="COR" checkname="GETTINGS,STONE" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="02:18" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="02:18" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="01:58" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="3PTR" vscore="34" hscore="45"></play>
+      <play vh="H" time="01:58" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="ASSIST"></play>
+      <play vh="V" time="01:43" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="3PTR"></play>
+      <play vh="H" time="01:43" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="01:14" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="01:14" uni="10" team="COR" checkname="MORGAN,MATT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="01:01" uni="05" team="COR" checkname="HATTER,ROBERT" action="TURNOVER"></play>
+      <play vh="H" time="00:59" uni="15" team="SIE" checkname="CLARETH,NICO" action="STEAL"></play>
+      <play vh="H" time="00:55" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="34" hscore="47"></play>
+      <play vh="H" time="00:55" uni="15" team="SIE" checkname="CLARETH,NICO" action="ASSIST"></play>
+      <play vh="V" time="00:55" uni="25" team="COR" checkname="FALLAS,JOJO" action="FOUL"></play>
+      <play vh="V" time="00:55" uni="TM" team="COR" checkname="TEAM" action="TIMEOUT" type="30SEC"></play>
+      <play vh="H" time="00:55" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="34" hscore="48"></play>
+      <play vh="H" time="00:55" uni="02" team="SIE" checkname="BRANDWIJK,WILLEM" action="SUB" type="IN"></play>
+      <play vh="H" time="00:55" uni="32" team="SIE" checkname="FISHER,EVAN" action="SUB" type="IN"></play>
+      <play vh="H" time="00:55" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="SUB" type="OUT"></play>
+      <play vh="H" time="00:55" uni="31" team="SIE" checkname="BISPING,BRETT" action="SUB" type="OUT"></play>
+      <play vh="V" time="00:42" uni="05" team="COR" checkname="HATTER,ROBERT" action="MISS" type="3PTR"></play>
+      <play vh="H" time="00:42" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="00:25" uni="TM" team="SIE" checkname="TEAM" action="TIMEOUT" type="30SEC"></play>
+      <play vh="H" time="00:11" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="3PTR"></play>
+      <play vh="V" time="00:11" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="00:01" uni="25" team="COR" checkname="FALLAS,JOJO" action="MISS" type="JUMPER"></play>
+      <play vh="H" time="00:01" uni="TM" team="SIE" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <clock time="00:00"></clock>
+    </period>
+    <period number="2" time="20:00">
+      <special vh="V" pts_to="4" pts_ch2="7" pts_paint="20" pts_fastb="5" pts_bench="11" ties="0" leads="0"
+               poss_count="47" poss_time="455" score_count="13" score_time="166" large_lead="6" large_lead_t="1st-11:03"></special>
+      <special vh="H" pts_to="5" pts_ch2="3" pts_paint="12" pts_fastb="0" pts_bench="6" ties="0" leads="0"
+               poss_count="48" poss_time="716" score_count="13" score_time="256" large_lead="14" large_lead_t="1st-00:55"></special>
+      <summary vh="V" fgm="15" fga="32" fgm3="4" fga3="9" ftm="10" fta="16" blk="0" stl="3" ast="7"
+               oreb="7" dreb="14" treb="21" pf="17" tf="0" to="6"></summary>
+      <summary vh="H" fgm="11" fga="26" fgm3="4" fga3="10" ftm="15" fta="22" blk="3" stl="3" ast="6"
+               oreb="2" dreb="13" treb="15" pf="13" tf="0" to="4"></summary>
+      <play vh="H" time="20:00" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="OUT"></play>
+      <play vh="H" time="19:36" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="FOUL"></play>
+      <play vh="V" time="19:18" uni="05" team="COR" checkname="HATTER,ROBERT" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="19:18" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="19:02" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="19:02" uni="10" team="COR" checkname="MORGAN,MATT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="18:54" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="LAYUP" paint="Y" vscore="36" hscore="48"></play>
+      <play vh="V" time="18:54" uni="05" team="COR" checkname="HATTER,ROBERT" action="ASSIST"></play>
+      <play vh="H" time="18:38" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="18:38" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="18:23" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="18:23" uni="15" team="SIE" checkname="CLARETH,NICO" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="18:12" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="FOUL"></play>
+      <play vh="H" time="17:55" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="LAYUP" paint="Y" vscore="36" hscore="50"></play>
+      <play vh="H" time="17:37" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="FOUL"></play>
+      <play vh="H" time="17:37" uni="32" team="SIE" checkname="FISHER,EVAN" action="SUB" type="IN"></play>
+      <play vh="H" time="17:37" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="SUB" type="OUT"></play>
+      <play vh="V" time="17:33" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="JUMPER" paint="Y" vscore="38" hscore="50"></play>
+      <play vh="H" time="17:08" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="3PTR"></play>
+      <play vh="V" time="17:08" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="16:57" uni="32" team="SIE" checkname="FISHER,EVAN" action="FOUL"></play>
+      <play vh="V" time="16:57" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="GOOD" type="FT" vscore="39" hscore="50"></play>
+      <play vh="V" time="16:57" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="GOOD" type="FT" vscore="40" hscore="50"></play>
+      <play vh="V" time="16:57" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="IN"></play>
+      <play vh="V" time="16:57" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="SUB" type="OUT"></play>
+      <play vh="H" time="16:42" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="LAYUP" paint="Y" vscore="40" hscore="52"></play>
+      <play vh="H" time="16:42" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="ASSIST"></play>
+      <play vh="H" time="16:34" uni="32" team="SIE" checkname="FISHER,EVAN" action="FOUL"></play>
+      <play vh="V" time="16:34" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="FT"></play>
+      <play vh="V" time="16:34" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="16:34" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="FT" vscore="41" hscore="52"></play>
+      <play vh="H" time="16:23" uni="32" team="SIE" checkname="FISHER,EVAN" action="GOOD" type="JUMPER" paint="Y" vscore="41" hscore="54"></play>
+      <play vh="V" time="16:10" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="IN"></play>
+      <play vh="V" time="16:10" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="OUT"></play>
+      <play vh="V" time="16:00" uni="05" team="COR" checkname="HATTER,ROBERT" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="16:00" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="15:54" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="15:54" uni="10" team="COR" checkname="MORGAN,MATT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="15:49" uni="15" team="SIE" checkname="CLARETH,NICO" action="FOUL"></play>
+      <play vh="V" time="15:49" uni="TM" team="COR" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="H" time="15:49" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="IN"></play>
+      <play vh="H" time="15:49" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="SUB" type="OUT"></play>
+      <play vh="V" time="15:29" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="15:29" uni="31" team="SIE" checkname="BISPING,BRETT" action="BLOCK"></play>
+      <play vh="V" time="15:28" uni="22" team="COR" checkname="WARREN,JOSH" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="15:22" uni="20" team="COR" checkname="BATHURST,WIL" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="15:22" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="15:04" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="JUMPER" paint="Y" vscore="43" hscore="54"></play>
+      <play vh="V" time="14:47" uni="05" team="COR" checkname="HATTER,ROBERT" action="FOUL"></play>
+      <play vh="V" time="14:47" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="IN"></play>
+      <play vh="V" time="14:47" uni="05" team="COR" checkname="HATTER,ROBERT" action="SUB" type="OUT"></play>
+      <play vh="H" time="14:33" uni="15" team="SIE" checkname="CLARETH,NICO" action="FOUL"></play>
+      <play vh="H" time="14:33" uni="15" team="SIE" checkname="CLARETH,NICO" action="TURNOVER"></play>
+      <play vh="V" time="14:28" uni="13" team="COR" checkname="GETTINGS,STONE" action="MISS" type="3PTR"></play>
+      <play vh="H" time="14:28" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="14:19" uni="32" team="SIE" checkname="FISHER,EVAN" action="MISS" type="3PTR"></play>
+      <play vh="V" time="14:19" uni="20" team="COR" checkname="BATHURST,WIL" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="14:09" uni="25" team="COR" checkname="FALLAS,JOJO" action="GOOD" type="3PTR" vscore="46" hscore="54"></play>
+      <play vh="V" time="14:09" uni="20" team="COR" checkname="BATHURST,WIL" action="ASSIST"></play>
+      <play vh="V" time="13:52" uni="13" team="COR" checkname="GETTINGS,STONE" action="FOUL"></play>
+      <play vh="H" time="13:52" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="FT"></play>
+      <play vh="H" time="13:52" uni="TM" team="SIE" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="H" time="13:52" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="46" hscore="55"></play>
+      <play vh="V" time="13:52" uni="04" team="COR" checkname="WHITESIDE,TROY" action="SUB" type="IN"></play>
+      <play vh="V" time="13:52" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="OUT"></play>
+      <play vh="H" time="13:52" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="IN"></play>
+      <play vh="H" time="13:52" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="SUB" type="IN"></play>
+      <play vh="H" time="13:52" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="OUT"></play>
+      <play vh="V" time="13:42" uni="20" team="COR" checkname="BATHURST,WIL" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="13:42" uni="20" team="COR" checkname="BATHURST,WIL" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="13:40" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="FOUL"></play>
+      <play vh="V" time="13:40" uni="20" team="COR" checkname="BATHURST,WIL" action="GOOD" type="FT" vscore="47" hscore="55"></play>
+      <play vh="V" time="13:40" uni="20" team="COR" checkname="BATHURST,WIL" action="MISS" type="FT"></play>
+      <play vh="H" time="13:40" uni="32" team="SIE" checkname="FISHER,EVAN" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="13:34" uni="20" team="COR" checkname="BATHURST,WIL" action="FOUL"></play>
+      <play vh="H" time="13:34" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="47" hscore="56"></play>
+      <play vh="H" time="13:34" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="47" hscore="57"></play>
+      <play vh="H" time="13:34" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="SUB" type="IN"></play>
+      <play vh="H" time="13:34" uni="32" team="SIE" checkname="FISHER,EVAN" action="SUB" type="OUT"></play>
+      <play vh="V" time="13:18" uni="22" team="COR" checkname="WARREN,JOSH" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="13:18" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="13:12" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="13:12" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="13:09" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="TURNOVER"></play>
+      <play vh="V" time="13:08" uni="10" team="COR" checkname="MORGAN,MATT" action="STEAL"></play>
+      <play vh="V" time="13:01" uni="25" team="COR" checkname="FALLAS,JOJO" action="TURNOVER"></play>
+      <play vh="H" time="13:01" uni="31" team="SIE" checkname="BISPING,BRETT" action="STEAL"></play>
+      <play vh="V" time="12:40" uni="20" team="COR" checkname="BATHURST,WIL" action="FOUL"></play>
+      <play vh="H" time="12:40" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="MISS" type="FT"></play>
+      <play vh="H" time="12:40" uni="TM" team="SIE" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="H" time="12:40" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="GOOD" type="FT" vscore="47" hscore="58"></play>
+      <play vh="V" time="12:40" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="IN"></play>
+      <play vh="V" time="12:40" uni="05" team="COR" checkname="HATTER,ROBERT" action="SUB" type="IN"></play>
+      <play vh="V" time="12:40" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="SUB" type="IN"></play>
+      <play vh="V" time="12:40" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="OUT"></play>
+      <play vh="V" time="12:40" uni="10" team="COR" checkname="MORGAN,MATT" action="SUB" type="OUT"></play>
+      <play vh="V" time="12:40" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="OUT"></play>
+      <play vh="H" time="12:40" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="IN"></play>
+      <play vh="H" time="12:40" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="SUB" type="OUT"></play>
+      <play vh="V" time="12:22" uni="22" team="COR" checkname="WARREN,JOSH" action="GOOD" type="JUMPER" paint="Y" vscore="49" hscore="58"></play>
+      <play vh="V" time="12:22" uni="05" team="COR" checkname="HATTER,ROBERT" action="ASSIST"></play>
+      <play vh="H" time="12:01" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="12:01" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="11:55" uni="04" team="COR" checkname="WHITESIDE,TROY" action="TURNOVER"></play>
+      <play vh="H" time="11:55" uni="TM" team="SIE" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="11:55" uni="10" team="COR" checkname="MORGAN,MATT" action="SUB" type="IN"></play>
+      <play vh="V" time="11:55" uni="04" team="COR" checkname="WHITESIDE,TROY" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:55" uni="15" team="SIE" checkname="CLARETH,NICO" action="SUB" type="IN"></play>
+      <play vh="H" time="11:55" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="OUT"></play>
+      <play vh="H" time="11:30" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="MISS" type="3PTR"></play>
+      <play vh="V" time="11:30" uni="10" team="COR" checkname="MORGAN,MATT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="11:26" uni="22" team="COR" checkname="WARREN,JOSH" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="11:26" uni="31" team="SIE" checkname="BISPING,BRETT" action="BLOCK"></play>
+      <play vh="V" time="11:24" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="11:21" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="GOOD" type="DUNK" paint="Y" vscore="51" hscore="58"></play>
+      <play vh="H" time="11:06" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="JUMPER" vscore="51" hscore="60"></play>
+      <play vh="H" time="11:06" uni="31" team="SIE" checkname="BISPING,BRETT" action="ASSIST"></play>
+      <play vh="H" time="11:00" uni="TM" team="SIE" checkname="TEAM" action="TIMEOUT" type="30SEC"></play>
+      <play vh="H" time="11:00" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="SUB" type="IN"></play>
+      <play vh="H" time="11:00" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="SUB" type="OUT"></play>
+      <play vh="V" time="10:44" uni="10" team="COR" checkname="MORGAN,MATT" action="GOOD" type="3PTR" vscore="54" hscore="60"></play>
+      <play vh="V" time="10:44" uni="13" team="COR" checkname="GETTINGS,STONE" action="ASSIST"></play>
+      <play vh="H" time="10:29" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="3PTR"></play>
+      <play vh="H" time="10:29" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="10:26" uni="13" team="COR" checkname="GETTINGS,STONE" action="FOUL"></play>
+      <play vh="H" time="10:21" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="3PTR" vscore="54" hscore="63"></play>
+      <play vh="H" time="10:21" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="ASSIST"></play>
+      <play vh="V" time="10:07" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="10:07" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="REBOUND" type="OFF"></play>
+      <play vh="H" time="10:06" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="FOUL"></play>
+      <play vh="V" time="10:06" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="MISS" type="FT"></play>
+      <play vh="H" time="10:06" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="10:06" uni="32" team="SIE" checkname="FISHER,EVAN" action="SUB" type="IN"></play>
+      <play vh="H" time="10:06" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="SUB" type="OUT"></play>
+      <play vh="H" time="09:50" uni="15" team="SIE" checkname="CLARETH,NICO" action="TURNOVER"></play>
+      <play vh="V" time="09:49" uni="10" team="COR" checkname="MORGAN,MATT" action="STEAL"></play>
+      <play vh="V" time="09:43" uni="05" team="COR" checkname="HATTER,ROBERT" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="09:43" uni="32" team="SIE" checkname="FISHER,EVAN" action="BLOCK"></play>
+      <play vh="V" time="09:40" uni="22" team="COR" checkname="WARREN,JOSH" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="09:38" uni="22" team="COR" checkname="WARREN,JOSH" action="GOOD" type="LAYUP" paint="Y" vscore="56" hscore="63"></play>
+      <play vh="H" time="09:18" uni="32" team="SIE" checkname="FISHER,EVAN" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="09:18" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="09:08" uni="10" team="COR" checkname="MORGAN,MATT" action="GOOD" type="3PTR" fastb="Y" vscore="59" hscore="63"></play>
+      <play vh="V" time="09:08" uni="05" team="COR" checkname="HATTER,ROBERT" action="ASSIST"></play>
+      <play vh="H" time="08:45" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="3PTR"></play>
+      <play vh="H" time="08:45" uni="TM" team="SIE" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="08:39" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="FOUL"></play>
+      <play vh="H" time="08:39" uni="31" team="SIE" checkname="BISPING,BRETT" action="MISS" type="FT"></play>
+      <play vh="V" time="08:39" uni="05" team="COR" checkname="HATTER,ROBERT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="08:39" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="IN"></play>
+      <play vh="V" time="08:39" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="SUB" type="OUT"></play>
+      <play vh="H" time="08:39" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="IN"></play>
+      <play vh="H" time="08:39" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="OUT"></play>
+      <play vh="V" time="08:26" uni="10" team="COR" checkname="MORGAN,MATT" action="TURNOVER"></play>
+      <play vh="H" time="08:24" uni="31" team="SIE" checkname="BISPING,BRETT" action="STEAL"></play>
+      <play vh="V" time="08:19" uni="05" team="COR" checkname="HATTER,ROBERT" action="FOUL"></play>
+      <play vh="H" time="08:19" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="GOOD" type="FT" vscore="59" hscore="64"></play>
+      <play vh="H" time="08:19" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="GOOD" type="FT" vscore="59" hscore="65"></play>
+      <play vh="H" time="07:55" uni="31" team="SIE" checkname="BISPING,BRETT" action="FOUL"></play>
+      <play vh="V" time="07:55" uni="TM" team="COR" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="07:55" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="FT" vscore="60" hscore="65"></play>
+      <play vh="V" time="07:55" uni="13" team="COR" checkname="GETTINGS,STONE" action="GOOD" type="FT" vscore="61" hscore="65"></play>
+      <play vh="V" time="07:55" uni="04" team="COR" checkname="WHITESIDE,TROY" action="SUB" type="IN"></play>
+      <play vh="V" time="07:55" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="OUT"></play>
+      <play vh="H" time="07:45" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="LAYUP" paint="Y" vscore="61" hscore="67"></play>
+      <play vh="V" time="07:30" uni="10" team="COR" checkname="MORGAN,MATT" action="GOOD" type="3PTR" vscore="64" hscore="67"></play>
+      <play vh="V" time="07:30" uni="13" team="COR" checkname="GETTINGS,STONE" action="ASSIST"></play>
+      <play vh="H" time="07:13" uni="32" team="SIE" checkname="FISHER,EVAN" action="GOOD" type="3PTR" vscore="64" hscore="70"></play>
+      <play vh="H" time="07:13" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="ASSIST"></play>
+      <play vh="H" time="07:07" uni="TM" team="SIE" checkname="TEAM" action="TIMEOUT" type="30SEC"></play>
+      <play vh="H" time="07:07" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="SUB" type="IN"></play>
+      <play vh="H" time="07:07" uni="15" team="SIE" checkname="CLARETH,NICO" action="SUB" type="OUT"></play>
+      <play vh="V" time="06:48" uni="10" team="COR" checkname="MORGAN,MATT" action="GOOD" type="JUMPER" vscore="66" hscore="70"></play>
+      <play vh="H" time="06:31" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="3PTR" vscore="66" hscore="73"></play>
+      <play vh="V" time="06:22" uni="05" team="COR" checkname="HATTER,ROBERT" action="GOOD" type="LAYUP" paint="Y" vscore="68" hscore="73"></play>
+      <play vh="H" time="06:04" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="3PTR" vscore="68" hscore="76"></play>
+      <play vh="H" time="06:04" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="ASSIST"></play>
+      <play vh="V" time="05:44" uni="22" team="COR" checkname="WARREN,JOSH" action="GOOD" type="LAYUP" paint="Y" vscore="70" hscore="76"></play>
+      <play vh="V" time="05:44" uni="10" team="COR" checkname="MORGAN,MATT" action="ASSIST"></play>
+      <play vh="H" time="05:32" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="TURNOVER"></play>
+      <play vh="V" time="05:31" uni="05" team="COR" checkname="HATTER,ROBERT" action="STEAL"></play>
+      <play vh="V" time="05:30" uni="05" team="COR" checkname="HATTER,ROBERT" action="GOOD" type="LAYUP" paint="Y" fastb="Y" vscore="72" hscore="76"></play>
+      <play vh="H" time="05:01" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="05:01" uni="13" team="COR" checkname="GETTINGS,STONE" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="04:54" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="3PTR"></play>
+      <play vh="H" time="04:54" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="04:39" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="LAYUP" paint="Y" vscore="72" hscore="78"></play>
+      <play vh="V" time="04:39" uni="13" team="COR" checkname="GETTINGS,STONE" action="FOUL"></play>
+      <play vh="H" time="04:39" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="FT" vscore="72" hscore="79"></play>
+      <play vh="V" time="04:39" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="SUB" type="IN"></play>
+      <play vh="V" time="04:39" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="IN"></play>
+      <play vh="V" time="04:39" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="OUT"></play>
+      <play vh="V" time="04:39" uni="04" team="COR" checkname="WHITESIDE,TROY" action="SUB" type="OUT"></play>
+      <play vh="H" time="04:39" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="SUB" type="IN"></play>
+      <play vh="H" time="04:39" uni="15" team="SIE" checkname="CLARETH,NICO" action="SUB" type="IN"></play>
+      <play vh="H" time="04:39" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="SUB" type="IN"></play>
+      <play vh="H" time="04:39" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="OUT"></play>
+      <play vh="H" time="04:39" uni="13" team="SIE" checkname="RICHARD,KHALIL" action="SUB" type="OUT"></play>
+      <play vh="H" time="04:39" uni="32" team="SIE" checkname="FISHER,EVAN" action="SUB" type="OUT"></play>
+      <play vh="V" time="04:27" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="LAYUP"></play>
+      <play vh="H" time="04:27" uni="31" team="SIE" checkname="BISPING,BRETT" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="04:18" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="3PTR"></play>
+      <play vh="V" time="04:18" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="H" time="04:14" uni="15" team="SIE" checkname="CLARETH,NICO" action="FOUL"></play>
+      <play vh="V" time="04:14" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="FT"></play>
+      <play vh="V" time="04:14" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="04:14" uni="10" team="COR" checkname="MORGAN,MATT" action="GOOD" type="FT" vscore="73" hscore="79"></play>
+      <play vh="V" time="04:14" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="IN"></play>
+      <play vh="V" time="04:14" uni="11" team="COR" checkname="FLEMING,DESMOND" action="SUB" type="IN"></play>
+      <play vh="V" time="04:14" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="IN"></play>
+      <play vh="V" time="04:14" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="OUT"></play>
+      <play vh="V" time="04:14" uni="10" team="COR" checkname="MORGAN,MATT" action="SUB" type="OUT"></play>
+      <play vh="V" time="04:14" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="OUT"></play>
+      <play vh="V" time="04:06" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="FOUL"></play>
+      <play vh="H" time="04:06" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="73" hscore="80"></play>
+      <play vh="H" time="04:06" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="73" hscore="81"></play>
+      <play vh="V" time="04:06" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="IN"></play>
+      <play vh="V" time="04:06" uni="03" team="COR" checkname="WRIGHT,DONOVAN" action="SUB" type="OUT"></play>
+      <play vh="H" time="04:06" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="IN"></play>
+      <play vh="H" time="04:06" uni="15" team="SIE" checkname="CLARETH,NICO" action="SUB" type="OUT"></play>
+      <play vh="H" time="03:57" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="FOUL"></play>
+      <play vh="V" time="03:57" uni="TM" team="COR" checkname="TEAM" action="TIMEOUT" type="MEDIA"></play>
+      <play vh="V" time="03:57" uni="05" team="COR" checkname="HATTER,ROBERT" action="MISS" type="FT"></play>
+      <play vh="V" time="03:57" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="V" time="03:57" uni="05" team="COR" checkname="HATTER,ROBERT" action="GOOD" type="FT" vscore="74" hscore="81"></play>
+      <play vh="V" time="03:57" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="IN"></play>
+      <play vh="V" time="03:57" uni="10" team="COR" checkname="MORGAN,MATT" action="SUB" type="IN"></play>
+      <play vh="V" time="03:57" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="OUT"></play>
+      <play vh="V" time="03:57" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="OUT"></play>
+      <play vh="H" time="03:40" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="GOOD" type="DUNK" paint="Y" vscore="74" hscore="83"></play>
+      <play vh="H" time="03:40" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="ASSIST"></play>
+      <play vh="V" time="03:30" uni="05" team="COR" checkname="HATTER,ROBERT" action="FOUL"></play>
+      <play vh="V" time="03:30" uni="05" team="COR" checkname="HATTER,ROBERT" action="TURNOVER"></play>
+      <play vh="V" time="03:30" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="IN"></play>
+      <play vh="V" time="03:30" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="OUT"></play>
+      <play vh="H" time="03:30" uni="15" team="SIE" checkname="CLARETH,NICO" action="SUB" type="IN"></play>
+      <play vh="H" time="03:30" uni="21" team="SIE" checkname="SHIVERS,AHSANTE" action="SUB" type="OUT"></play>
+      <play vh="H" time="03:01" uni="31" team="SIE" checkname="BISPING,BRETT" action="MISS" type="LAYUP"></play>
+      <play vh="V" time="03:01" uni="20" team="COR" checkname="BATHURST,WIL" action="REBOUND" type="DEF"></play>
+      <play vh="H" time="03:00" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="FOUL"></play>
+      <play vh="V" time="03:00" uni="20" team="COR" checkname="BATHURST,WIL" action="GOOD" type="FT" vscore="75" hscore="83"></play>
+      <play vh="V" time="03:00" uni="20" team="COR" checkname="BATHURST,WIL" action="GOOD" type="FT" vscore="76" hscore="83"></play>
+      <play vh="H" time="03:00" uni="32" team="SIE" checkname="FISHER,EVAN" action="SUB" type="IN"></play>
+      <play vh="H" time="03:00" uni="00" team="SIE" checkname="OGUNYEMI,JAVION" action="SUB" type="OUT"></play>
+      <play vh="V" time="02:41" uni="11" team="COR" checkname="FLEMING,DESMOND" action="FOUL"></play>
+      <play vh="H" time="02:41" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="FT" vscore="76" hscore="84"></play>
+      <play vh="H" time="02:41" uni="31" team="SIE" checkname="BISPING,BRETT" action="GOOD" type="FT" vscore="76" hscore="85"></play>
+      <play vh="V" time="02:41" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="IN"></play>
+      <play vh="V" time="02:41" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="IN"></play>
+      <play vh="V" time="02:41" uni="11" team="COR" checkname="FLEMING,DESMOND" action="SUB" type="OUT"></play>
+      <play vh="V" time="02:41" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="OUT"></play>
+      <play vh="V" time="02:23" uni="13" team="COR" checkname="GETTINGS,STONE" action="FOUL"></play>
+      <play vh="V" time="02:23" uni="13" team="COR" checkname="GETTINGS,STONE" action="TURNOVER"></play>
+      <play vh="V" time="02:23" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="IN"></play>
+      <play vh="V" time="02:23" uni="13" team="COR" checkname="GETTINGS,STONE" action="SUB" type="OUT"></play>
+      <play vh="H" time="02:03" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="02:03" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="02:00" uni="TM" team="COR" checkname="TEAM" action="TIMEOUT" type="30SEC"></play>
+      <play vh="V" time="01:46" uni="10" team="COR" checkname="MORGAN,MATT" action="MISS" type="3PTR"></play>
+      <play vh="H" time="01:46" uni="15" team="SIE" checkname="CLARETH,NICO" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="01:29" uni="05" team="COR" checkname="HATTER,ROBERT" action="FOUL"></play>
+      <play vh="H" time="01:29" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="FT"></play>
+      <play vh="H" time="01:29" uni="TM" team="SIE" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="H" time="01:29" uni="15" team="SIE" checkname="CLARETH,NICO" action="GOOD" type="FT" vscore="76" hscore="86"></play>
+      <play vh="V" time="01:19" uni="05" team="COR" checkname="HATTER,ROBERT" action="TURNOVER"></play>
+      <play vh="H" time="01:19" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="STEAL"></play>
+      <play vh="V" time="01:19" uni="05" team="COR" checkname="HATTER,ROBERT" action="FOUL"></play>
+      <play vh="H" time="01:19" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="76" hscore="87"></play>
+      <play vh="H" time="01:19" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="76" hscore="88"></play>
+      <play vh="V" time="01:19" uni="04" team="COR" checkname="WHITESIDE,TROY" action="SUB" type="IN"></play>
+      <play vh="V" time="01:19" uni="05" team="COR" checkname="HATTER,ROBERT" action="SUB" type="OUT"></play>
+      <play vh="V" time="01:10" uni="25" team="COR" checkname="FALLAS,JOJO" action="MISS" type="3PTR"></play>
+      <play vh="H" time="01:10" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="00:55" uni="25" team="COR" checkname="FALLAS,JOJO" action="FOUL"></play>
+      <play vh="H" time="00:55" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="FT"></play>
+      <play vh="H" time="00:55" uni="TM" team="SIE" checkname="TEAM" action="REBOUND" type="DEADB"></play>
+      <play vh="H" time="00:55" uni="15" team="SIE" checkname="CLARETH,NICO" action="MISS" type="FT"></play>
+      <play vh="V" time="00:55" uni="10" team="COR" checkname="MORGAN,MATT" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="00:49" uni="22" team="COR" checkname="WARREN,JOSH" action="GOOD" type="LAYUP" paint="Y" vscore="78" hscore="88"></play>
+      <play vh="H" time="00:49" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="FOUL"></play>
+      <play vh="V" time="00:49" uni="22" team="COR" checkname="WARREN,JOSH" action="MISS" type="FT"></play>
+      <play vh="H" time="00:49" uni="32" team="SIE" checkname="FISHER,EVAN" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="00:45" uni="11" team="COR" checkname="FLEMING,DESMOND" action="SUB" type="IN"></play>
+      <play vh="V" time="00:45" uni="22" team="COR" checkname="WARREN,JOSH" action="SUB" type="OUT"></play>
+      <play vh="H" time="00:44" uni="TM" team="SIE" checkname="TEAM" action="TIMEOUT" type="30SEC"></play>
+      <play vh="V" time="00:42" uni="11" team="COR" checkname="FLEMING,DESMOND" action="FOUL"></play>
+      <play vh="H" time="00:42" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="GOOD" type="FT" vscore="78" hscore="89"></play>
+      <play vh="H" time="00:42" uni="01" team="SIE" checkname="WRIGHT,MARQUIS" action="MISS" type="FT"></play>
+      <play vh="V" time="00:42" uni="04" team="COR" checkname="WHITESIDE,TROY" action="REBOUND" type="DEF"></play>
+      <play vh="V" time="00:42" uni="32" team="COR" checkname="GORDON,JACK" action="SUB" type="IN"></play>
+      <play vh="V" time="00:42" uni="01" team="COR" checkname="SMITH,DARRYL" action="SUB" type="IN"></play>
+      <play vh="V" time="00:42" uni="30" team="COR" checkname="BAYLESS,JOSEPH" action="SUB" type="IN"></play>
+      <play vh="V" time="00:42" uni="20" team="COR" checkname="BATHURST,WIL" action="SUB" type="OUT"></play>
+      <play vh="V" time="00:42" uni="25" team="COR" checkname="FALLAS,JOJO" action="SUB" type="OUT"></play>
+      <play vh="V" time="00:42" uni="10" team="COR" checkname="MORGAN,MATT" action="SUB" type="OUT"></play>
+      <play vh="V" time="00:33" uni="04" team="COR" checkname="WHITESIDE,TROY" action="MISS" type="JUMPER"></play>
+      <play vh="V" time="00:33" uni="TM" team="COR" checkname="TEAM" action="REBOUND" type="OFF"></play>
+      <play vh="V" time="00:29" uni="04" team="COR" checkname="WHITESIDE,TROY" action="MISS" type="3PTR"></play>
+      <play vh="H" time="00:29" uni="14" team="SIE" checkname="SMITHEN,KADEEM" action="REBOUND" type="DEF"></play>
+      <clock time="00:00"></clock>
+    </period>
+  </plays>
+</bbgame>

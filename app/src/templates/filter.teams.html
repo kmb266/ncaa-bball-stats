@@ -1,0 +1,286 @@
+<nav class="side-nav js-nav is-shown" id="left">
+  <div class="clear-filters" id="clear-teams-filters" style="padding-right:6px;">
+    <button type="button" class="btn btn-danger btn-xs" (click)="clearAllFilters()"> Clear All </button>
+  </div>
+  <div class="nav-item">
+    <h5 class="nav-category">Team Filters</h5>
+    <table id="game-team-filters" class="filter-table">
+      <tr>
+        <td class="filter-td"> <label class="filter-label" for="teamTeamNames[]"> Team: </label> </td>
+        <td class="filter-td">
+          <select id="teams-team" class="input-filter teams-select2 filter-select2" name="teamTeamNames[]" multiple="multiple"></select>
+        </td>
+      </tr>
+      <tr>
+        <td class="filter-td"> <label class="filter-label" for="teamVsTeamNames[]"> Opponent: </label> </td>
+        <td class="filter-td">
+          <select id="teams-opponent" class="input-filter teams-select2 filter-select2" name="teamVsTeamNames[]" multiple="multiple"></select>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="nav-item">
+    <h5 class="nav-category">Game Filters</h5>
+    <div style="padding-top:4px;">
+      <label class="filter-label" for="teams-upOrDown">Score </label>
+      <select id="teams-upOrDown" class="teams-select2 filter-select2 upOrDown" style="width:70px; padding-left:8px;"></select>
+      <input type="number" class="input-filter" style="margin-top:4px;width:40px; text-align:center;" [(ngModel)]="upOrDown" placeholder="#">
+      <label class="filter-label" style="width:20px;">points</label>
+    </div>
+    <table id='team-game-filters' style="width:100%">
+        <td class="filter-td">
+          <span class="filter-label"> Location: </span>
+        </td>
+      </tr>
+      <tr class="location-tooltip" data-toggle="tooltip" data-placement="bottom" data-container="body" title="If none of these are checked, the default is to include all games">
+        <td class="filter-td filterCheckbox">
+          <label class="filter-label indent-first-checkbox" for="teamHomeGames">Home</label>
+          <input type="checkbox" class="homeAway" id="teamHomeGames" name="teamHomeGames" #homeGames/>
+        </td>
+        <td class="filter-td filterCheckbox">
+          <label class="filter-label" for="teamAwayGames">Away</label>
+          <input type="checkbox" class="homeAway" id="teamAwayGames" name="teamAwayGames" #awayGames/>
+        </td>
+        <td class="filter-td filterCheckbox">
+          <label class="filter-label" for="teamNeutralGames">Neutrl</label>
+          <input type="checkbox" class="homeAway" id="teamNeutralGames" name="teamNeutralGames" #neutralGames/>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="filter-td"> <span class="filter-label"> Outcome: </span> </td>
+      </tr>
+      <tr class="location-tooltip" data-toggle="tooltip" data-placement="bottom" data-container="body" title="If neither of these are checked, the default is to include wins and losses">
+        <td class="filter-td filterCheckbox">
+          <label class="filter-label indent-first-checkbox" for="teamWins">Win</label>
+          <input type="checkbox" class="winLoss" id="teamWins" name="teamWins" #wins/>
+        </td>
+        <td class="filter-td filterCheckbox">
+          <label class="filter-label" for="teamLosses">Loss</label>
+          <input type="checkbox" class="winLoss" id="teamLosses" #losses/>
+        </td>
+      </tr>
+    </table>
+    <table id="teamGame-time" style="width:100%">
+      <tr>
+        <td class="filter-td" colspan="3">
+          <span class="filter-label second-half-tooltip" data-toggle="tooltip" data-placement="bottom" data-container="body"
+            title="Use the slider to change the start and end of when you want stats to be pulled from">
+              Game Time:
+          </span>
+        </td>
+      </tr>
+      <tr style="width:100%">
+        <td class="filter-td" colspan="3">
+          <div class="slider-wrapper">
+            <input type="text" id="tgtSlider" name="tgtSlider" value="" #tgtSlider/>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="time-td second-half-tooltip" data-toggle="tooltip" data-placement="bottom" data-container="body"
+        title="A checked box means this time in the 2nd half. An unchecked box means the time is in the first half.">
+          <input type="text" class="gametime-input" maxlength="5" value={{gametime.tgtSlider.start.clock}}
+                  #gameStartInput (keyup.enter)="updateSliderStart(gameStartInput.value, tgtSlider.id)" />
+          <input [(ngModel)]="startTime2ndHalf.tgtSlider" (change)="changedStartHalf(tgtSlider.id)" type="checkbox" />
+        </td>
+        <td class="filter-td time-td second-half-tooltip" data-toggle="tooltip" data-placement="bottom" data-container="body"
+        title="A checked box means this time in the 2nd half. An unchecked box means the time is in the first half." style="text-align:right;">
+          <input [(ngModel)]="endTime2ndHalf.tgtSlider" (change)="changedEndHalf(tgtSlider.id)" type="checkbox" />
+          <input type="text" class="gametime-input" maxlength="5" value="{{gametime.tgtSlider.end.clock}}"
+                  #gameEndInput (keyup.enter)="updateSliderEnd(gameEndInput.value,  tgtSlider.id)"/>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="3" style="padding-top:4px;text-align:center;">
+          <button class="btn btn-xs btn-default toggle-btn" (click)="hidePgtExtra=!hidePgtExtra">Toggle Extra Time Period</button>
+        </td>
+      </tr>
+
+      <tr style="width:100%" [hidden]="hidePgtExtra">
+        <td class="filter-td" colspan="3">
+          <div class="slider-wrapper">
+            <input type="text" id="tgtSliderExtra" name="tgtSliderExtra" value=""  #tgtSliderExtra/>
+          </div>
+        </td>
+      </tr>
+      <tr [hidden]="hidePgtExtra">
+        <td class="time-td second-half-tooltip" data-toggle="tooltip" data-placement="bottom" data-container="body" title="A checked box means this time in the 2nd half. An unchecked box means the time is in the first half.">
+          <input type="text" class="gametime-input" maxlength="5" value={{gametime.tgtSliderExtra.start.clock}}
+                  #gameStartExtraInput (keyup.enter)="updateSliderStart(gameStartExtraInput.value, tgtSliderExtra.id)" />
+          <input [(ngModel)]="startTime2ndHalf.tgtSliderExtra" (change)="changedStartHalf(tgtSliderExtra.id)" type="checkbox" />
+        </td>
+        <td class="filter-td time-td second-half-tooltip" data-toggle="tooltip" data-placement="bottom" data-container="body" title="A checked box means this time in the 2nd half. An unchecked box means the time is in the first half." style="text-align:right;">
+          <input [(ngModel)]="endTime2ndHalf.tgtSliderExtra" (change)="changedEndHalf(tgtSliderExtra.id)" type="checkbox" />
+          <input type="text" class="gametime-input" maxlength="5" value="{{gametime.tgtSliderExtra.end.clock}}"
+                  #gameEndExtraInput (keyup.enter)="updateSliderEnd(gameEndInput.value, tgtSliderExtra.id)" />
+        </td>
+      </tr>
+    </table>
+
+    <div style="padding-top:4px; text-align:right;">
+      <button class="btn btn-xs btn-default toggle-btn" (click)="hideOvertime=!hideOvertime">Toggle Overtime</button>
+    </div>
+    <table id="teamOvertime" [hidden]="hideOvertime">
+      <tr>
+        <td class="filter-td" colspan="3"> <span class="filter-label"> Overtime: </span> </td>
+      </tr>
+      <tr>
+        <td class="filter-td filterCheckbox indent-first-checkbox2" colspan="3" style="text-align:right;">
+          <input type="checkbox" class="gametime" id="teamOnlyOT" name="teamOnlyOT" [(ngModel)]="onlyOT"/>
+          <label class="filter-label" for="teamOnlyOT">Only query for OT</label>
+        </td>
+      </tr>
+      <tr style="width:100%">
+        <td class="filter-td" colspan="3">
+          <div class="slider-wrapper">
+            <input type="text" id="tgtSliderOT" name="tgtSliderOT" value="" #tgtSliderOT/>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="time-td">
+          <input type="text" class="gametime-input" maxlength="5" value={{gametime.tgtSliderOT.start.clock}}
+                  #gameStartInput (keyup.enter)="updateSliderStart(gameStartInput.value, tgtSliderOT.id)" />
+        </td>
+
+        <td class="filter-td checkbox-info">
+        </td>
+        <td class="filter-td time-td" style="text-align:right;">
+          <input type="text" class="gametime-input" maxlength="5" value="{{gametime.tgtSliderOT.end.clock}}"
+                  #gameEndInput (keyup.enter)="updateSliderEnd(gameEndInput.value,  tgtSliderOT.id)"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="filter-td otCheckbox">
+          <label class="filter-label indent-first-checkbox" for="teamOt1">1 OT</label>
+          <input type="checkbox" class="otButton" id="teamOt1" name="teamOt1" [(ngModel)]="ot1"/>
+        </td>
+        <td class="filter-td otCheckbox">
+          <label class="filter-label" for="teamOt2" style="padding-left: 5px;">2 OT</label>
+          <input type="checkbox" class="otButton" id="teamOt2" name="teamOt2" [(ngModel)]="ot2"/>
+        </td>
+        <td class="filter-td otCheckbox">
+          <label class="filter-label" for="gameOt3" style="padding-left: 10px;">3 OT</label>
+          <input type="checkbox" class="otButton" id="teamOt3" name="teamOt3" [(ngModel)]="ot3"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="filter-td otCheckbox">
+          <label class="filter-label indent-first-checkbox" for="teamOt4">4 OT</label>
+          <input type="checkbox" class="otButton" id="teamOt4" name="teamOt4" [(ngModel)]="ot4"/>
+        </td>
+        <td class="filter-td otCheckbox">
+          <label class="filter-label" for="teamOt5" style="padding-left: 5px;">5 OT</label>
+          <input type="checkbox" class="otButton" id="teamOt5" name="teamOt5" [(ngModel)]="ot5"/>
+        </td>
+        <td class="filter-td otCheckbox">
+          <label class="filter-label" for="teamOt6" style="padding-left: 6px;">6+OT</label>
+          <input type="checkbox" class="otButton" id="teamOt6" name="teamOt6" [(ngModel)]="ot6"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="filter-td otCheckbox">
+          <label class="filter-label indent-first-checkbox2" for="teamOtAll">All</label>
+          <input type="checkbox" class="homeAway" id="teamOtAll" name="teamOtAll" [(ngModel)]="otAll"/>
+        </td>
+        <td class="filter-td otCheckbox">
+        </td>
+        <td class="filter-td otCheckbox">
+          <input type="checkbox" class="homeAway" id="teamOtNone" name="teamOtNone" [(ngModel)]="otNone"/>
+          <label class="filter-label" for="teamOtNone">None</label>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+  <div class="nav-item season-category">
+    <!-- <table id='team-season-filters' class="filter-table">
+      <tr>
+        <td>
+          <h5 class="nav-category">Season</h5>
+        </td>
+        <td class="filter-td" style="text-align:center; width:100%;">
+          <select id="teams_select-season" class="teams-select2 filter-select2" multiple="multiple" style="width:100%; padding:4px"> </select>
+        </td>
+      </tr>
+    </table> -->
+    <h5 class="nav-category">Dates</h5>
+    <table>
+      <tr>
+        <td style="padding-right: 4px; vertical-align: middle;">Start</td>
+        <td>
+          <div class="form-group">
+            <div class='input-group date time-tooltip' id='teams-start-date' data-toggle="tooltip" data-placement="right" data-container="body"
+            title="Set the Start Date of the filter. If left empty, the default value is the begining of the current season if in-season, or most recent season if you're in the offseason">
+              <input type='text' class="form-control date-input player-date-input" placeholder="Start Date"/>
+              <span class="input-group-addon">
+                <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding-right:4px;vertical-align:middle;">End</td>
+        <td>
+          <div class="form-group">
+            <div class='input-group date time-tooltip' id='teams-end-date' data-toggle="tooltip" data-placement="right" data-container="body"
+            title="Set the End Date of the filter. If left empty, the default value is today">
+              <input type='text' class="form-control date-input player-date-input" placeholder="End Date"/>
+              <span class="input-group-addon">
+                <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="nav-item apply-filters" >
+    <button class="btn btn-default" (click)="applyPlayerFilters()">Apply Filters</button>
+  </div>
+
+</nav>
+
+<!-- The save filters modal -->
+<div id="teams-save-filters-modal" class="modal fade" role="dialog" #modal>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Name your filter</h4>
+      </div>
+      <div class="modal-body">
+        <input id="teams-save-filters-input" class="save-filters-input" type="text" maxlength="70" #saveFilter placeholder="Ex. Last 5 Min" autofocus/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success"
+                (click)="saveCurrentFilter(saveFilter.id, saveFilter.value, modal.id)"
+                [disabled]="saveFilter.value.length < 1">
+          Save changes
+        </button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div id="teams-spinner-wrapper" hidden>
+  <div class="spinner-wrapper">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+    <div class="cancel-apply-filter">
+      <button type="button" class="btn btn-danger btn-lg" (click)="cancelFilterProcess()">Cancel</button>
+    </div>
+  </div>
+</div>
